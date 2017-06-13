@@ -1,0 +1,31 @@
+
+public class CreatingArrays {
+	public static void printArray(int[] array) {
+		   for (int i = 0; i < array.length; i++) {
+		      System.out.print(array[i] + " ");
+		   }
+		}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int[] arr1 = new int[5];
+		for(int i =0;i<5;i++){
+			arr1[i]=i;
+			
+		}
+	/*	System.out.println("Data of array : \n");
+		for(int i =0;i<5;i++){
+		System.out.println(arr1[i]);
+			
+		}
+		System.out.println("Using for each : \n");
+		for(int element:arr1){
+			System.out.println(element);
+		}
+		*/
+		printArray(arr1);
+		
+	}
+
+}
