@@ -5,18 +5,6 @@ public class Variables {
    Instance variables
    Class/Static variables
  * */
-	
-	/*
-	 * 
-	 * Visible to the package, the default. No modifiers are needed.
-       Visible to the class only (private).
-       Visible to the world (public).
-       Visible to the package and all subclasses (protected).
-	 * 
-	 * */
-	
-	
-	
 	 String typ;//Instance variables
 
 	 
