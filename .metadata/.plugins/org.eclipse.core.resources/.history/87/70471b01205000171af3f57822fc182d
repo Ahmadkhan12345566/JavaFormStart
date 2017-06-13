@@ -39,19 +39,5 @@ public class loops {
 				b++;
 				}while(b<3);
 			}
-
-		switch(z){
-		case 1:
-			System.out.println("in 1");
-			break;
-		case 2:
-			System.out.println("in 2");
-			break;
-		default :
-			System.out.println("No where");
-		
-			
 		}
-		
-	}
 	}

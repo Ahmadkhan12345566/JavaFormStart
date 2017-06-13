@@ -10,7 +10,7 @@ public class loops {
 		System.out.println("Press 1 for for loop \n Press 2 for while loop \n");
 	//	String s = scan.next();
 		//System.out.println(s);
-		System.out.println("Enter your dec : ");
+		System.out.println("Enter tour age : ");
 		int z = scan.nextInt();
 		System.out.println(z);
 		scan.close();
@@ -37,21 +37,7 @@ public class loops {
 			do{
 				System.out.println("I am in do while loop");
 				b++;
-				}while(b<3);
+				}while(b<5);
 			}
-
-		switch(z){
-		case 1:
-			System.out.println("in 1");
-			break;
-		case 2:
-			System.out.println("in 2");
-			break;
-		default :
-			System.out.println("No where");
-		
-			
 		}
-		
-	}
 	}

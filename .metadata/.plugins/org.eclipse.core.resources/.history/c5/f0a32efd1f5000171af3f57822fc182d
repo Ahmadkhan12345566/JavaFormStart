@@ -37,21 +37,7 @@ public class loops {
 			do{
 				System.out.println("I am in do while loop");
 				b++;
-				}while(b<3);
+				}while(b<5);
 			}
-
-		switch(z){
-		case 1:
-			System.out.println("in 1");
-			break;
-		case 2:
-			System.out.println("in 2");
-			break;
-		default :
-			System.out.println("No where");
-		
-			
 		}
-		
-	}
 	}
