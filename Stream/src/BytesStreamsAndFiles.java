@@ -16,6 +16,7 @@ public class BytesStreamsAndFiles {
 
 	  /** Run the example. */
 	  public static void main(String... aArgs) {
+		  
 	    BytesStreamsAndFiles test = new BytesStreamsAndFiles();
 	    //read in the bytes
 	    byte[] fileContents = test.read(INPUT_FILE_NAME);
@@ -137,6 +138,7 @@ public class BytesStreamsAndFiles {
 	          //aInput.read() returns -1, 0, or more :
 	          bytesRead = aInput.read(bucket);
 	          if(bytesRead > 0){
+	        	  
 	            result.write(bucket, 0, bytesRead);
 	          }
 	        }

@@ -1,0 +1,29 @@
+import java.io.*;
+public class task {
+
+	public void filereader(String addres,String data){
+		
+	}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+	
+		 
+	//	public static void readWriteArray(String fileTo) throws IOException{
+		 OutputStream out = null;
+		 String testString = "This String is for testing";
+		 try{
+		     out = new FileOutputStream(fileTo);
+		     byte[] totalBytes = testString.getBytes();
+		     out.write(totalBytes);
+		      }
+		    finally{
+		    if(out !=null)
+		        out.close();
+		      }
+		  }
+
+
+	}
+
+}
