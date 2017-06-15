@@ -1,0 +1,26 @@
+import java.io.*;
+public class test {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		try {
+			  //  InputStream input = new FileInputStream("input.txt");
+			  //System.out.println("File opened...");
+			  //FileOutputStream output=new FileOutputStream("input.txt");
+			  //PrintStream printOut = new PrintStream(output);
+			  //System.setOut(printOut);
+			  RandomAccessFile file = new RandomAccessFile("input.txt", "rw");
+			  file.write("Hello".getBytes());
+			  System.out.println("Dumped...");
+			  file.close();
+			  File fil = new File("input.txt");
+			  boolean dec=fil.exists();
+			  System.out.println(dec);
+
+			} catch (IOException e){
+			  System.err.println("File opening failed:");
+			  e.printStackTrace();
+			}
+	}
+
+}
