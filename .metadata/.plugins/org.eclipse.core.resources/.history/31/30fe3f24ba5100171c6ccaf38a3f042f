@@ -1,6 +1,6 @@
 
 
-class Calculation extends Abstraction{
+class Calculation {
 		   int z;
 		   String name;
 		   public void Setname(String ame){
@@ -18,9 +18,6 @@ class Calculation extends Abstraction{
 			   z = x - y;
 			   System.out.println("The difference between the given numbers:"+z);
 			   }
-		   public double method(){
-			   return 0.0;
-		   }
 		   }
 	
 	public class Inheritance extends Calculation {
@@ -45,10 +42,7 @@ class Calculation extends Abstraction{
 		Inheritance demo = new Inheritance();
 		demo.addition(a, b);
 		demo.Subtraction(a, b);
-		demo.multiplication(a, b);
-		Abstraction ab;
-		
-		
+		demo.multiplication(a, b);	
 		}
 
 }
