@@ -6,7 +6,7 @@ public class InPutStream {
 	     FileInputStream f = null;
 	     
 	     
-	     ByteArrayOutputStream bOutput = new ByteArrayOutputStream();
+	     //ByteArrayOutputStream bOutput = new ByteArrayOutputStream();
 	    // ByteArrayInputStream bInput = new ByteArrayInputStream();
 	    byte[] byt=new byte[10];
 	     InputStream input = new ByteArrayInputStream(byt);
@@ -15,7 +15,7 @@ public class InPutStream {
 	      try {
 	         in = new FileInputStream("raw/input.txt");
 	        	  	 //   System.out.println(chars);
-	         byte b [] = bOutput.toByteArray();
+//	        / byte b [] = bOutput.toByteArray();
 	         
 	         
 	         
@@ -27,7 +27,7 @@ public class InPutStream {
 
 	        // charArrayWriter.write(in);
 
-	         char[] chars1 = charArrayWriter.toCharArray();
+	         //char[] chars1 = charArrayWriter.toCharArray();
 
 	         charArrayWriter.close();
 	         //System.out.println(chars1[0]);

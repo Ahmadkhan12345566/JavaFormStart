@@ -15,9 +15,9 @@ public class SmallBinaryFiles {
 	    Path path = Paths.get(aFileName);
 	    Files.write(path, aBytes); //creates, overwrites
 	  }
-	  
+	  /*
 	  private static void log(Object aMsg){
 	    System.out.println(String.valueOf(aMsg));
-	  }
+	  }*/
 
 }

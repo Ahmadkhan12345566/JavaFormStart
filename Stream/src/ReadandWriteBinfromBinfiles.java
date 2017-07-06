@@ -6,9 +6,9 @@ public class ReadandWriteBinfromBinfiles {
 	  
 	public static void main(String[] args) {
 		 // TODO Auto-generated method stub
-		   String FIL = "C:\\Temp\\cottage.jpg";
-		   String OUTPUT = "C:\\Temp\\cottage_output.jpg";
-		ReadandWriteBinfromBinfiles binary = new ReadandWriteBinfromBinfiles();
+		//   String FIL = "C:\\Temp\\cottage.jpg";
+		  // String OUTPUT = "C:\\Temp\\cottage_output.jpg";
+	//	ReadandWriteBinfromBinfiles binary = new ReadandWriteBinfromBinfiles();
 	   // byte[] bytes = binary.readSmallBinaryFile(FIL);
 	  //  log("Small - size of file read in:" + bytes.length);
 	 //   binary.writeSmallBinaryFile(bytes, OUTPUT);
@@ -25,9 +25,10 @@ public class ReadandWriteBinfromBinfiles {
 	    Path path = Paths.get(aFileName);
 	    Files.write(path, aBytes); //creates, overwrites
 	  }
-	  
+	 /* 
 	  private static void log(Object aMsg){
 	    System.out.println(String.valueOf(aMsg));
 	
 	  }
+	  */
 }

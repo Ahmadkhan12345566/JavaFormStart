@@ -4,7 +4,7 @@ public class test {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		try {
-			  InputStream input = new FileInputStream("input.txt");
+			 // InputStream input = new FileInputStream("input.txt");
 			  System.out.println("File opened...");
 			  //FileOutputStream output=new FileOutputStream("input.txt");
 			  //PrintStream printOut = new PrintStream(output);
